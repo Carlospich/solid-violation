@@ -12,9 +12,9 @@ public class Principal {
     //Se realiza la captura de envios
 
     Envio[] envios = {
-            new EnvioMunicipal("Municipal",5000),
-            new EnvioIntermunicipal("Intermunicipal",15000),
-            new EnvioInternacional("Internacional",25000)
+            new Envio_Municipal("Municipal",5000),
+            new Envio_Intermunicipal("Intermunicipal",15000),
+            new Envio_Internacional("Internacional",25000)
     };
 
 
